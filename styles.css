@@ -2,8 +2,13 @@
 #container{
 	margin:20px;
 	}
-#container>span{
+#container>p:before{
   color: #f00;
  font-size:20px;
-	
+	content:"Before Element";
+}
+#container>p:after{
+  color: #f00;
+ font-size:20px;
+	content:"After Element";
 }
