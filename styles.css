@@ -2,12 +2,12 @@
 #container{
 	margin:20px;
 	}
-#container>p:before{
+#container>p::before{
   color: #f00;
  font-size:20px;
 	content:"Before Element";
 }
-#container>p:after{
+#container>p::after{
   color: #f00;
  font-size:20px;
 	content:"After Element";
